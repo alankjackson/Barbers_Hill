@@ -1,0 +1,28 @@
+---
+title: "Gather data"
+author: "Alan Jackson"
+format: html
+editor: source
+---
+
+## first look at what data I have
+
+Pretty much forgotten details of what is available, so take a look
+
+
+```{r setup}
+
+library(tidyverse)
+
+path <- "/home/ajackson/Dropbox/Rprojects/Covid/"
+
+df <- readRDS(paste0(path, "Covid.rds")) # deaths & cases by county
+
+
+
+
+```
+
+
+
+
